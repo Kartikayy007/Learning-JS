@@ -8,4 +8,4 @@ let dateOfBirth = null
 console.log(typeof null);
 console.log(typeof undefined);
 console.log(typeof isLoggedIn);
-console.log(typeof age)
+console.log(typeof age);

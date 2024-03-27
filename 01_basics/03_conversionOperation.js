@@ -20,4 +20,4 @@ console.log(booleanIsLoggedIn);
 // when "" is empty then false
 // else true 
 // 1 = true
-// 0 = false
+// 0 = false 
