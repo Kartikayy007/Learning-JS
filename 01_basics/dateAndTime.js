@@ -7,5 +7,16 @@ console.log(myDate.toDateString());
 
 console.log(typeof myDate) //object
 
-let myCreatedDate = new Date(2024,3,4)
-console.log(myCreatedDate.toDateString())
+let myCreatedDate = new Date("02-12-2012")
+console.log(myCreatedDate.toLocaleString())
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+
+let month = new Date()
+console.log(month.getDay()) 
+console.log(month.getDate()) 
+console.log(month.getFullYear()) 
+console.log(month.getMinutes()) 
+
+// `${month.getDay()}`
