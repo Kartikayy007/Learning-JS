@@ -19,4 +19,4 @@ console.log(month.getDate())
 console.log(month.getFullYear()) 
 console.log(month.getMinutes()) 
 
-// `${month.getDay()}`
+// `${month.getDay()}` for streak
