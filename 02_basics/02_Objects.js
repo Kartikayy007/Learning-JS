@@ -22,4 +22,10 @@ console.log(students.Names.fullname.lastname)
 const obj1 = {
     1: "a",
     2: "b",
-}
+} // first obj
+
+const obj2 = {
+    3: "c",
+    4: "d",
+} // second obj
+
