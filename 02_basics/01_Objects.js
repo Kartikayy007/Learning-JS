@@ -18,3 +18,4 @@ jsuser.age = 19
 
 Object.freeze(jsuser)
 // freezes object now no values can be updated
+
