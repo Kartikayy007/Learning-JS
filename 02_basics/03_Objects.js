@@ -8,6 +8,7 @@ const {Teacher} = course // way to extract from object
 
 console.log(Teacher)
 
+// JSON
 {
     "results" [
       {
