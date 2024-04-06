@@ -10,10 +10,13 @@ sayMyName() // Execution of function
 //     console.log(num1 + num2)
 // }
 
-function addingTwoNumbers(num1, num2){
-    let result = num1 + num2
+function addingTwoNumbers(num1, num2){ // it is parameter (num1 and num2)
+    let result = num1 + num2 //store them and resturn then print the sum is the correct way of doing things
     return result
+    //or we can directly type 
+    //return num1 + num2 both are same
 }
-
-const result = addingTwoNumbers(1, 2)
+//After return nothing prints
+// return is the end
+const result = addingTwoNumbers(1, 2) // 1 and 2 are arguments
 console.log(result)
