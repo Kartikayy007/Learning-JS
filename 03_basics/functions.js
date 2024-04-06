@@ -20,3 +20,9 @@ function addingTwoNumbers(num1, num2){ // it is parameter (num1 and num2)
 // return is the end
 const result = addingTwoNumbers(1, 2) // 1 and 2 are arguments
 console.log(result)
+
+function loginUserMessage(username) {
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("kartikay"))
