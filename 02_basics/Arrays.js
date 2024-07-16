@@ -25,11 +25,12 @@ console.log(typeof newarr)
 
 // slice, splice
 
-//slice
+//slice 
 let array1 = [0,1,2,3,4,5]
 console.log(array1)
 let slicedArray = array1.slice(1,4)
 console.log(slicedArray);
+console.log("sliced array left ==> ", array1)
 // it slices elemets from given index as per 1 to 4
 // but last index 4 will not be included
 
