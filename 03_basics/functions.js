@@ -27,3 +27,13 @@ function loginUserMessage(username) {
 }
 
 loginUserMessage("kartikay")
+
+// Function expression
+
+function hello() {
+    console.log("Hello")
+}
+// can also be declared as
+hello = function() {
+    console.log("Hello")
+}   
