@@ -37,4 +37,5 @@ const addTwo = (num1, num2) => num1 + num2
 
 // const addTwo = (num1, num2) => (num1 + num2) also called implicit return
 
-// const addTwo = (num1, num2) => ({username: "kartikay"}) to return object we have to use paranthesis
+// const addTwo = (num1, num2) => ({username: "kartikay"}) 
+// to return object we have to use paranthesis
