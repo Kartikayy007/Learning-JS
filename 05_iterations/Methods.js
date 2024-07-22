@@ -77,3 +77,4 @@ console.log(number)
 
 // +++++++++++++++++++++++ Reduce method +++++++++++++++++++++++++++++
 
+console.log('hello')
