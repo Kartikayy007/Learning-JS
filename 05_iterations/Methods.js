@@ -8,6 +8,7 @@ console.log(value)
 // Undefined
 
 // ++++++++++++++++++++ Filter +++++++++++++++++++++
+// Filter is used to filter out the elements from the array based on the condition
 
 let arr = [1,2,3,4,5,6,7,8,9,10]
 
@@ -56,10 +57,23 @@ let filter = books.filter( (bk) => {
 console.log(filter)
 
 // +++++++++++++++++++++++ Map ++++++++++++++++++++++++++++++++++
-// map cre
+// map is used for transforming each element of an array.
 
 
 let array = [1,2,3,4,5,6,7,8,9,10]
 
 let numbers = array.map((num) => num + 10)
 console.log(numbers)
+
+// chaining method
+
+let arr1 = [1,2,3,4,5,6,7,8,9,10]
+
+const number = arr1.map( (num) => num*10).map((num) => num+1).filter((num) => num > 40)
+// here we first multiply each element by 10 and then add 1 to each resulting element
+console.log(number)
+
+// This demonstrates how map functions can be chained together to perform multiple operations on each element of the array in sequence. we can also use map and filter in chain method
+
+// +++++++++++++++++++++++ Reduce method +++++++++++++++++++++++++++++
+
