@@ -65,7 +65,48 @@ for(const key in arr1) {
 
 const fruits = ['apple', 'banana', 'cherry'];
 
-fruits.forEach( function(val, index, arr) {
-    console.log(`string is: ${val} and number is: ${index} of array: ${arr}`)
-} )
+// fruits.forEach( function(name) {
+//     console.log(name)
+// } )
+
+// we can also define function outside
+
+// function printFruit(name) {
+//     console.log(name)
+// }
+
+// fruits.forEach(printFruit)
+
+// we can also use arrow function
+
+fruits.forEach( (name, index, arr) => {
+    console.log(name, index, arr)
+})
+
+let coding = [
+    {
+        name: "javascript",
+        type: "dynamic",
+    },
+    {
+        name: "python",
+        type: "dynamic",
+        class: "high level"
+    },
+    {
+        name: "ruby",
+        type: "dynamic",
+        class: "high level"
+    },
+    {
+        name: "swift",
+        type: "static",
+        class: NaN
+    }
+]
+
+coding.forEach( (item) => {
+    console.log(item.name)
+    console.log(item.type)
+})
 
