@@ -77,4 +77,27 @@ console.log(number)
 
 // +++++++++++++++++++++++ Reduce method +++++++++++++++++++++++++++++
 
-console.log('hello')
+let arr2 = [1,2,3] 
+
+const intial = 0
+const sum = arr2.reduce((sum,num) => sum + num, intial)
+
+console.log(sum)
+
+let cart = [
+    {
+        product: 'iphone',
+        price: 700
+    },
+    {
+        product: 'macbook',
+        price: 1200
+    },
+    {
+        product: 'ipad',
+        price: 300
+    }
+]
+
+const total = cart.reduce((sum, item) => sum + item.price, 0)
+console.log(total)
